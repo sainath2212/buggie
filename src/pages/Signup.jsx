@@ -52,6 +52,7 @@ function Signup() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="text-black border border-gray-300 focus:border-black focus:ring-2 focus:ring-black rounded-lg px-4 py-2 transition-all duration-200"
+                  required
                 />
               </div>
 
@@ -64,6 +65,7 @@ function Signup() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="text-black border border-gray-300 focus:border-black focus:ring-2 focus:ring-black rounded-lg px-4 py-2 transition-all duration-200"
+                  required
                 />
               </div>
 
@@ -76,6 +78,7 @@ function Signup() {
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   className="text-black border border-gray-300 focus:border-black focus:ring-2 focus:ring-black rounded-lg px-4 py-2 transition-all duration-200"
+                  required
                 />
               </div>
             </div>
